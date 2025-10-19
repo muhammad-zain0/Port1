@@ -1,0 +1,40 @@
+<svg width="1200" height="850" viewBox="0 0 1200 850" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041027" />
+      <stop offset="50%" stop-color="#0b2f4f" />
+      <stop offset="100%" stop-color="#163a63" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="rgba(0, 201, 255, 0.5)" />
+      <stop offset="100%" stop-color="rgba(0, 201, 255, 0)" />
+    </radialGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9ff" />
+      <stop offset="100%" stop-color="#ff0099" />
+    </linearGradient>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="40" stdDeviation="45" flood-color="rgba(0,0,0,0.35)" />
+    </filter>
+  </defs>
+  <rect width="1200" height="850" rx="40" fill="url(#bgGradient)" />
+  <rect width="1200" height="850" rx="40" fill="url(#glowGradient)" />
+  <g filter="url(#cardShadow)">
+    <rect x="90" y="90" width="1020" height="670" rx="32" fill="#f7fbff" opacity="0.08" />
+    <rect x="120" y="120" width="960" height="610" rx="28" fill="rgba(255,255,255,0.9)" stroke="rgba(255,255,255,0.4)" stroke-width="4" />
+    <rect x="120" y="120" width="960" height="104" rx="28" fill="url(#accentGradient)" opacity="0.9" />
+    <text x="160" y="190" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="48" font-weight="600" fill="#ffffff">Certificate of Achievement</text>
+    <text x="160" y="280" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="34" fill="#0b2f4f">Google UX Design Professional</text>
+    <text x="160" y="330" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="22" fill="#365a7d">Issued by Coursera · 2024</text>
+    <rect x="160" y="360" width="760" height="2" fill="rgba(11,47,79,0.12)" />
+    <text x="160" y="430" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="20" fill="#365a7d">Presented to</text>
+    <text x="160" y="480" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="40" font-weight="600" fill="#0b2f4f">Muhammad Zain Riaz</text>
+    <text x="160" y="530" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="20" fill="#365a7d">For successfully completing the Google UX Design Professional Certificate.</text>
+    <rect x="160" y="560" width="200" height="200" rx="16" fill="rgba(0, 201, 255, 0.08)" stroke="rgba(0, 201, 255, 0.4)" stroke-width="2" />
+    <text x="200" y="620" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="18" fill="#0b2f4f">Credential ID</text>
+    <text x="200" y="660" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#0b2f4f">UX-2024-001</text>
+    <text x="200" y="700" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="16" fill="#365a7d">Verify at: coursera.org/verify</text>
+    <rect x="620" y="605" width="320" height="12" fill="rgba(11, 47, 79, 0.08)" />
+    <text x="620" y="650" font-family="'Great Vibes', 'Segoe Script', cursive" font-size="48" fill="#0b2f4f">Authorized Signature</text>
+  </g>
+</svg>
